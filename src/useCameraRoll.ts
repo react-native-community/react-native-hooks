@@ -1,5 +1,9 @@
 import {useState} from 'react'
-import {CameraRoll, GetPhotosParamType, GetPhotosReturnType} from 'react-native'
+import {
+  GetPhotosParamType,
+  GetPhotosReturnType,
+} from 'react-native'
+import CameraRoll from "@react-native-community/cameraroll";
 
 const initialState: GetPhotosReturnType = {
   edges: [],
